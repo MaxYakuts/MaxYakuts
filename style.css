@@ -221,7 +221,7 @@
         .box3_pic {
             display: flex;
             justify-content: flex-start;
-            background-image:url(./pic/4.png);
+            background-image:url(pic/4.png);
             background-size: cover;
             position: relative;
             border-radius: 50px;
