@@ -77,7 +77,8 @@
 
 
         @media only screen and (max-width: 1024px) {  
-          
+          opacity: 1;
+          top: 1rem;
         }
         
         @media only screen and (max-width: 640px) { 
@@ -430,7 +431,6 @@
 
 
         @media only screen and (max-width: 1024px) { 
-            width: 100vw;
             height: 100px;
             gap: 1rem;
             flex-direction: column;
