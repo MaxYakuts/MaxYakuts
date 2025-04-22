@@ -111,6 +111,9 @@
                              "B C";
         @media only screen and (max-width: 1024px) { 
             font-size: 20px;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 2rem;
         }
                       
         @media only screen and (max-width: 640px) { 
@@ -184,7 +187,7 @@
 
             img {
                 @media only screen and (max-width: 1024px) { 
-                    
+                    width: 10%;
                 }
           
                 @media only screen and (max-width: 640px) { 
@@ -218,7 +221,8 @@
         padding: 1rem;
 
         @media only screen and (max-width: 1024px) { 
-            
+            height: auto;
+            margin: 0 auto;
         }
                       
         @media only screen and (max-width: 640px) { 
@@ -260,7 +264,7 @@
 
             img {
                 @media only screen and (max-width: 1024px) { 
-                    
+                    width: 15%;
                 }
           
                 @media only screen and (max-width: 640px) { 
@@ -306,9 +310,10 @@
         grid-template-columns: 1fr 0.5fr;
 
         @media only screen and (max-width: 1024px) { 
-            height: 200px;
+            height: 250px;
             width: 90%;
             font-size: 14px;
+            border-radius: 25px;
 
             h1 {
                 font-size: 18px;
@@ -425,7 +430,17 @@
 
 
         @media only screen and (max-width: 1024px) { 
-                
+            width: 100vw;
+            height: 100px;
+            gap: 1rem;
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+            h1 {
+                padding-left: 0;
+                font-size: 14px;
+                padding-right: 1rem;
+            }  
         }
 
         @media only screen and (max-width: 640px) { 
@@ -439,10 +454,6 @@
                 padding-left: 0;
                 font-size: 14px;
                 padding-right: 1rem;
-            }
-
-            .connection {
-                gap: 1rem;
             }
         }
     }
